@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("../img/background2.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-spacing {
+    padding-top:3em;
+  }
+
+.green-circle {
+    height: 32px;
+    width: 32px;
+    background-color: #17eb22;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red-circle {
+    height: 32px;
+    width: 32px;
+    background-color: #eb1717;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.yellow-circle {
+    height: 32px;
+    width: 32px;
+    background-color: #d6eb17;
+    border-radius: 50%;
+    display: inline-block;
+}
