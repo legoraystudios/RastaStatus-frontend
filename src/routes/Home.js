@@ -1,5 +1,6 @@
 //Import Components
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { MDBJumbotron, MDBTable, MDBTableBody, MDBTableHead, MDBContainer } from "mdbreact";
 
 
@@ -58,13 +59,7 @@ function App() {
         </MDBTable>
       </MDBContainer>
     </body>
-  <footer>
-  <div className="footer-copyright text-center py-3 elegant-color">
-    <MDBContainer fluid>
-          <p className="text-white">&copy; {new Date().getFullYear()} Copyright - RastaStatus | Website designed by <a className="light-blue-text" target="_blank" rel="noreferrer" href="https://legoray.com">Legoncio</a> - Backend designed by <a className="light-blue-text" target="_blank" rel="noreferrer" href="https://gamerexde.dev">Gamerexde</a></p>
-    </MDBContainer>
-    </div>
-  </footer>
+        <Footer></Footer>
   </html>  
       );
     }
